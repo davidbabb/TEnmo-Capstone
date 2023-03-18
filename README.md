@@ -1,2 +1,0 @@
-# TEnmo-Capstone
-# Vendomatic-Capstone

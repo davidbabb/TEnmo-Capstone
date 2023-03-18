@@ -1,0 +1,22 @@
+2023-03-10T11:44:52.2905349 401 : [{"timestamp":"2023-03-10T16:44:52.263+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T11:45:14.0862331 401 : [{"timestamp":"2023-03-10T16:45:14.065+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T11:45:28.4319757 401 : [{"timestamp":"2023-03-10T16:45:28.411+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T11:49:03.7061593 401 : [{"timestamp":"2023-03-10T16:49:03.688+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T12:04:11.2619066 401 : [{"timestamp":"2023-03-10T17:04:11.239+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T12:20:03.0507143 405 : [{"timestamp":"2023-03-10T17:20:03.033+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/login"}]
+2023-03-10T12:20:04.2398871 401 : [{"timestamp":"2023-03-10T17:20:04.236+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T12:20:19.4396626 405 : [{"timestamp":"2023-03-10T17:20:19.423+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/login"}]
+2023-03-10T12:22:41.9711185 401 : [{"timestamp":"2023-03-10T17:22:41.964+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/accounts/user/1001"}]
+2023-03-10T12:40:56.5234616 401 : [no body]
+2023-03-10T12:50:54.877108 401 : [no body]
+2023-03-10T18:51:18.3983192 500 : [{"timestamp":"2023-03-10T23:51:18.381+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/transfers"}]
+2023-03-10T18:57:06.8111627 500 : [{"timestamp":"2023-03-10T23:57:06.809+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/transfers"}]
+2023-03-10T19:14:57.5044314 500 : [{"timestamp":"2023-03-11T00:14:57.486+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/transfers"}]
+2023-03-10T19:16:26.0192721 403 : [{"timestamp":"2023-03-11T00:16:26.003+00:00","status":403,"error":"Forbidden","message":"The sender has insufficient funds","path":"/transfers"}]
+2023-03-10T19:17:21.6675976 403 : [{"timestamp":"2023-03-11T00:17:21.648+00:00","status":403,"error":"Forbidden","message":"The sender has insufficient funds","path":"/transfers"}]
+2023-03-10T19:19:21.6816904 403 : [{"timestamp":"2023-03-11T00:19:21.658+00:00","status":403,"error":"Forbidden","message":"The sender has insufficient funds","path":"/transfers"}]
+2023-03-10T19:24:06.7207832 403 : [{"timestamp":"2023-03-11T00:22:48.708+00:00","status":403,"error":"Forbidden","message":"The sender has insufficient funds","path":"/transfers"}]
+2023-03-10T19:30:01.5220869 403 : [{"timestamp":"2023-03-11T00:30:00.403+00:00","status":403,"error":"Forbidden","message":"The sender has insufficient funds","path":"/transfers"}]
+2023-03-10T19:44:57.6303267 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-03-10T19:45:09.6170259 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-03-10T19:51:02.1195511 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
